@@ -36,4 +36,4 @@ pie_chart([40,60], labels=["X","Y"], title="Pie Demo", outfile="pie.svg")
 
 ## 🔹 Liên hệ
 GitHub: [https://github.com/Akaza-12345/nicecharts](https://github.com/Akaza-12345/nicecharts)
-Email: [email của bạn]
+Email: [tvhlam2k13@gmail.com](tvhlam2k13@gmail.com)
