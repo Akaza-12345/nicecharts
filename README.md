@@ -35,5 +35,5 @@ pie_chart([40,60], labels=["X","Y"], title="Pie Demo", outfile="pie.svg")
 **MIT License**: Mọi người được phép sử dụng thư viện để học tập và cá nhân.
 
 ## 🔹 Liên hệ
-GitHub: [https://github.com/username/nicecharts](https://github.com/username/nicecharts)
+GitHub: [https://github.com/Akaza-12345/nicecharts](https://github.com/Akaza-12345/nicecharts)
 Email: [email của bạn]
