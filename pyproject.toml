@@ -1,0 +1,37 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "nicecharts"
+version = "0.1.0"
+description = "Lightweight chart library that outputs SVG/PNG (fan chart, line chart) without matplotlib."
+readme = "README.md"
+
+authors = [
+  { name = "Lâm" }
+]
+
+license = { file = "LICENSE" }
+requires-python = ">=3.8"
+
+dependencies = [
+  "Pillow"
+]
+
+keywords = ["charts", "svg", "png", "visualization", "fan chart", "line chart"]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Topic :: Multimedia :: Graphics",
+    "Topic :: Scientific/Engineering :: Visualization",
+]
+
+[project.urls]
+Homepage = "https://github.com/yourname/nicecharts"
+Repository = "https://github.com/yourname/nicecharts"
+Issues = "https://github.com/yourname/nicecharts/issues"
