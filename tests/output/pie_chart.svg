@@ -1,0 +1,14 @@
+<svg width='600' height='400' xmlns='http://www.w3.org/2000/svg'>
+<path d="M 460.0 360.0 A 160.0 160.0 0 0 1 429.44271909999156 454.04564036679574" fill="#FF6666" stroke="none" stroke-width="2" />
+<path d="M 460.0 360.0 A 160.0 160.0 0 0 1 429.44271909999156 454.04564036679574" fill="none" stroke="white" stroke-width="2" />
+<text x="300" y="190.0" font-size="14" text-anchor="middle" fill="black">S1</text>
+<path d="M 429.44271909999156 454.04564036679574 A 160.0 160.0 0 0 1 250.55728090000844 512.1690426072246" fill="#66FF66" stroke="none" stroke-width="2" />
+<path d="M 429.44271909999156 454.04564036679574 A 160.0 160.0 0 0 1 250.55728090000844 512.1690426072246" fill="none" stroke="white" stroke-width="2" />
+<text x="300" y="190.0" font-size="14" text-anchor="middle" fill="black">S2</text>
+<path d="M 250.55728090000844 512.1690426072246 A 160.0 160.0 0 0 1 170.5572809000084 265.9543596332043" fill="#6666FF" stroke="none" stroke-width="2" />
+<path d="M 250.55728090000844 512.1690426072246 A 160.0 160.0 0 0 1 170.5572809000084 265.9543596332043" fill="none" stroke="white" stroke-width="2" />
+<text x="300" y="190.0" font-size="14" text-anchor="middle" fill="black">S3</text>
+<path d="M 170.5572809000084 265.9543596332043 A 160.0 160.0 0 0 1 460.0 359.99999999999994" fill="#FFCC66" stroke="none" stroke-width="2" />
+<path d="M 170.5572809000084 265.9543596332043 A 160.0 160.0 0 0 1 460.0 359.99999999999994" fill="none" stroke="white" stroke-width="2" />
+<text x="300" y="190.0" font-size="14" text-anchor="middle" fill="black">S4</text>
+</svg>

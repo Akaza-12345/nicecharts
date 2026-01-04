@@ -1,37 +1,25 @@
+# pyproject.toml
 [build-system]
-requires = ["hatchling"]
+requires = ["hatchling>=1.14.0"]
 build-backend = "hatchling.build"
 
 [project]
 name = "nicecharts"
-version = "0.1.0"
-description = "Lightweight chart library that outputs SVG/PNG (fan chart, line chart) without matplotlib."
-readme = "README.md"
-
+version = "1.1.1"
+description = "Python library for generating fan, line, and pie charts as SVG or PNG."
 authors = [
-  { name = "Lâm" }
+    { name = "Lâm", email = "tvhlam2k13@gmail.com" }
 ]
-
-license = { file = "LICENSE" }
-requires-python = ">=3.8"
-
-dependencies = [
-  "Pillow"
-]
-
-keywords = ["charts", "svg", "png", "visualization", "fan chart", "line chart"]
-
+license = { text = "Custom License - Permission required for modification and redistribution" }
+readme = "README.md"
+home-page = "https://github.com/Akaza-12345/nicecharts"
+keywords = ["charts", "SVG", "PNG", "fan chart", "line chart", "pie chart"]
 classifiers = [
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3 :: Only",
-    "License :: OSI Approved :: MIT License",
-    "Operating System :: OS Independent",
-    "Intended Audience :: Developers",
-    "Topic :: Multimedia :: Graphics",
-    "Topic :: Scientific/Engineering :: Visualization",
+    "License :: Other/Proprietary License",
+    "Operating System :: OS Independent"
 ]
-
-[project.urls]
-Homepage = "https://github.com/yourname/nicecharts"
-Repository = "https://github.com/yourname/nicecharts"
-Issues = "https://github.com/yourname/nicecharts/issues"
+dependencies = [
+    "Pillow>=10.0.0",
+    "cairosvg>=2.6.0"
+]

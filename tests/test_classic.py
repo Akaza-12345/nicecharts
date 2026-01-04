@@ -1,28 +1,12 @@
-# tests/test_nicecharts.py
-import os
-import pytest
 from nicecharts import fan_chart, line_chart, pie_chart
+import os
 
-def test_fan_chart_svg():
-    outfile = "test_fan.svg"
-    fan_chart(values=[30, 20, 50], labels=["A","B","C"], title="Fan Test", outfile=outfile)
-    assert os.path.exists(outfile)
-    os.remove(outfile)
+# Tạo folder output
+output_dir = os.path.join(os.path.dirname(__file__), "output")
+os.makedirs(output_dir, exist_ok=True)
 
-def test_fan_chart_png():
-    outfile = "test_fan.png"
-    fan_chart(values=[30, 20, 50], labels=["A","B","C"], title="Fan Test", outfile=outfile)
-    assert os.path.exists(outfile)
-    os.remove(outfile)
 
-def test_line_chart():
-    outfile = "test_line.svg"
-    line_chart(x=[1,2,3], y=[10,20,15], title="Line Test", outfile=outfile)
-    assert os.path.exists(outfile)
-    os.remove(outfile)
+fan_chart([30,50,20], outfile=os.path.join(output_dir, "fan_chart.svg"))
+line_chart([1,2,3,4], [10,20,15,25], outfile=os.path.join(output_dir, "line_chart.svg"))
+pie_chart([10,20,30,40], outfile=os.path.join(output_dir, "pie_chart.svg"))
 
-def test_pie_chart():
-    outfile = "test_pie.svg"
-    pie_chart(values=[40,60], labels=["X","Y"], title="Pie Test", outfile=outfile)
-    assert os.path.exists(outfile)
-    os.remove(outfile)

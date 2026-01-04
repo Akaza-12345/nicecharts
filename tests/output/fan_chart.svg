@@ -1,0 +1,11 @@
+<svg width='600' height='400' xmlns='http://www.w3.org/2000/svg'>
+<path d="M 140.0 360.0 A 160.0 160.0 0 0 1 205.95435963320426 230.55728090000844" fill="#FF6666" stroke="none" stroke-width="2" />
+<path d="M 140.0 360.0 A 160.0 160.0 0 0 1 205.95435963320426 230.55728090000844" fill="none" stroke="white" stroke-width="2" />
+<text x="300" y="190.0" font-size="14" text-anchor="middle" fill="black">S1</text>
+<path d="M 205.95435963320426 230.55728090000844 A 160.0 160.0 0 0 1 429.44271909999156 265.95435963320426" fill="#66FF66" stroke="none" stroke-width="2" />
+<path d="M 205.95435963320426 230.55728090000844 A 160.0 160.0 0 0 1 429.44271909999156 265.95435963320426" fill="none" stroke="white" stroke-width="2" />
+<text x="300" y="190.0" font-size="14" text-anchor="middle" fill="black">S2</text>
+<path d="M 429.44271909999156 265.95435963320426 A 160.0 160.0 0 0 1 460.0 359.99999999999994" fill="#6666FF" stroke="none" stroke-width="2" />
+<path d="M 429.44271909999156 265.95435963320426 A 160.0 160.0 0 0 1 460.0 359.99999999999994" fill="none" stroke="white" stroke-width="2" />
+<text x="300" y="190.0" font-size="14" text-anchor="middle" fill="black">S3</text>
+</svg>
